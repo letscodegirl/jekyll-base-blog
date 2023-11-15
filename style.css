@@ -11,6 +11,24 @@ section {
     border: 1px solid lightgray;
 }
 
-.padded-1 {
-    padding: 1rem;
+.padded-1 { padding: 1rem; }
+
+.intro {
+    text-transform: uppercase;
+    background-color: lightgrey;
+}
+
+/* background image styles */
+
+.bg-image {
+    background-size: cover;
+    background-position: center;
+}
+
+.square {
+    padding-bottom: 100%;
+}
+
+.landscape {
+    padding-bottom: 60%;
 }
