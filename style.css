@@ -3,3 +3,14 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+header,
+footer,
+section {
+    padding: 5%;
+    border: 1px solid lightgray;
+}
+
+.padded-1 {
+    padding: 1rem;
+}
