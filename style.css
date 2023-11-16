@@ -5,11 +5,17 @@
 }
 
 header,
-footer,
+footer {
+    padding: 5%;
+    border: 1px solid lightgray;
+    background-color: lightblue;
+}
+
 section {
     padding: 5%;
     border: 1px solid lightgray;
 }
+
 
 .padded-1 { padding: 1rem; }
 
@@ -23,6 +29,7 @@ section {
 .bg-image {
     background-size: cover;
     background-position: center;
+    background-color: antiquewhite;
 }
 
 .square {
@@ -31,4 +38,17 @@ section {
 
 .landscape {
     padding-bottom: 60%;
+}
+
+.pb {
+    padding-bottom: 2rem;
+}
+
+.card {
+    padding: 3rem;
+    border: 2px solid;
+    border-radius: 1rem;
+    max-width: 20%;
+    display: inline-block;
+
 }
